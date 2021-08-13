@@ -20,3 +20,5 @@ from . import views
 urlpatterns = [
     path('', views.hello),
 ]
+
+# django3 has a different setup for urls.py than django 1.4
